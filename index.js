@@ -25,7 +25,7 @@ controls.registerMethod('deviceOrientation', deviceOrientationControlMethod);
 
 // Create source.
 var source = Marzipano.ImageUrlSource.fromString(
-  "tiles/{z}/{f}/{y}/{x}.jpg"
+  "tiles/0-sagrestia/{z}/{f}/{y}/{x}.jpg"
 );
 
 // Create geometry.
