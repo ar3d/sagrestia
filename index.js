@@ -25,7 +25,7 @@ controls.registerMethod('deviceOrientation', deviceOrientationControlMethod);
 
 // Create source.
 var source = Marzipano.ImageUrlSource.fromString(
-  "media/{f}.jpg"
+  "https://ar3d.github.io/sagrestia/media/{f}.jpg"
 );
 
 // Create geometry.
