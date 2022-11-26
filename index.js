@@ -29,10 +29,10 @@ var source = Marzipano.ImageUrlSource.fromString(
 );
 
 // Create geometry.
-var geometry = new Marzipano.CubeGeometry([{ tileSize: 1024, size: 1024 }]);
+var geometry = new Marzipano.CubeGeometry([{ tileSize: 1520, size: 1520 }]);
 
 // Create view.
-var limiter = Marzipano.RectilinearView.limit.traditional(1024, 100 * Math.PI / 180);
+var limiter = Marzipano.RectilinearView.limit.traditional(1520, 100 * Math.PI / 180);
 var view = new Marzipano.RectilinearView(null, limiter);
 
 // Create scene.
