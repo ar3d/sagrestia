@@ -27,7 +27,3 @@ document.querySelector("#info .close").addEventListener('click', function() {
   document.querySelector("#inner_icon").classList.remove('closeIcon');
 });
 
-
-document.querySelector('#info input[type="text"]').addEventListener('keydown', function(evt) {
-  evt.stopPropagation();
-});
