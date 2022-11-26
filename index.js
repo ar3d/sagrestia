@@ -91,4 +91,4 @@ function toggle() {
   }
 }
 
-toggleElement.addEventListener('click', toggle);
+
