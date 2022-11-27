@@ -46,7 +46,7 @@
   transform: rotate(45deg)
 }
 
-#info1 .icon1 {
+#info1 .icon3 {
   width: 4px;
   height: 26px;
   position: absolute;
@@ -56,7 +56,7 @@
   background-color: #fff;
 }
 
-#info1 .icon2 {
+#info1 .icon4 {
   width: 26px;
   height: 4px;
   position: absolute;
