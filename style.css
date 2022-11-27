@@ -57,3 +57,27 @@ html, body {
 #toggleDeviceOrientation.enabled .enable {
   display: none;
 }
+
+.testo {
+  margin-top: 0.7em;
+  margin-right: 0.7em;
+  margin-left: 0.7em;
+  margin-bottom: 0.7em;
+}
+
+.testo_1 {
+  margin-top: 0.7em;
+  margin-right: 0.7em;
+  margin-left: 0.7em;
+  margin-bottom: 0.7em;
+  font-size: 0.80rem;
+}
+
+.testo_2 {
+  margin-top: 0.7em;
+  margin-right: 0.7em;
+  margin-left: 0.7em;
+  margin-bottom: 0.7em;
+  font-size: 0.65rem;
+  text-align: right;
+}
