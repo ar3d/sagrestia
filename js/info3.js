@@ -15,11 +15,11 @@
  */
 'use strict';
 
-scene.hotspotContainer().createHotspot(document.querySelector("#info2"), { yaw: -0.02, pitch: 0.50 });
+scene.hotspotContainer().createHotspot(document.querySelector("#info3"), { yaw: 0.35, pitch: -0.46 });
 
-document.querySelector("#info2 .icon_wrapper").addEventListener('click', function() {
-  document.querySelector("#info2").classList.toggle('expanded');
-  document.querySelector("#inner_icon2").classList.toggle('closeIcon');
+document.querySelector("#info3 .icon_wrapper").addEventListener('click', function() {
+  document.querySelector("#info3").classList.toggle('expanded');
+  document.querySelector("#inner_icon3").classList.toggle('closeIcon');
 });
 
 
