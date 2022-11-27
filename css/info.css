@@ -166,7 +166,7 @@
 }
 
 #info .content img {
-  width: 100%;
+  width: 300px;
 }
 
 #info .content > *:last-child {
