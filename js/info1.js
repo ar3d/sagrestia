@@ -17,9 +17,9 @@
 
 scene.hotspotContainer().createHotspot(document.querySelector("#info1"), { yaw: -0.02, pitch: 0 });
 
-document.querySelector("#info1 .icon_wrapper").addEventListener('click', function() {
+document.querySelector("#info1 .icon_wrapper1").addEventListener('click', function() {
   document.querySelector("#info1").classList.toggle('expanded');
-  document.querySelector("#inner_icon").classList.toggle('closeIcon');
+  document.querySelector("#inner_icon1").classList.toggle('closeIcon1');
 });
 
 
