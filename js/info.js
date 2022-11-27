@@ -22,8 +22,4 @@ document.querySelector("#info .icon_wrapper").addEventListener('click', function
   document.querySelector("#inner_icon").classList.toggle('closeIcon');
 });
 
-document.querySelector("#info .close").addEventListener('click', function() {
-  document.querySelector("#info").classList.remove('expanded');
-  document.querySelector("#inner_icon").classList.remove('closeIcon');
-});
 
