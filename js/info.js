@@ -15,7 +15,7 @@
  */
 'use strict';
 
-scene.hotspotContainer().createHotspot(document.querySelector("#info"), { yaw: -0.07, pitch: -0.46 });
+scene.hotspotContainer().createHotspot(document.querySelector("#info"), { yaw: 0, pitch: -0.46 });
 
 document.querySelector("#info .icon_wrapper").addEventListener('click', function() {
   document.querySelector("#info").classList.toggle('expanded');
