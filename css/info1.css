@@ -5,7 +5,7 @@
   margin-top: -30px;
 }
 
-#info1 .icon_wrapper1 {
+#info1 .icon_wrapper {
   width: 100%;
   height: 100%;
   padding: 4px;
@@ -24,11 +24,11 @@
   transition: all .2s ease-in-out;
 }
 
-#info1 .icon_wrapper1:hover {
+#info1 .icon_wrapper:hover {
  border: 6px solid rgba(255,255,255,1)
 }
 
-#info1 .icon_wrapper1:hover .icon {
+#info1 .icon_wrapper:hover .icon {
   border: 4px solid rgba(255,255,255,.5);
 }
 
